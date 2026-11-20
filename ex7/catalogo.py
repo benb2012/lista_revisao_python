@@ -5,37 +5,8 @@
 # Criar um menu que permita acessar todas essas funcionalidades.
 # Os dados devem ser lidos do JSON, sem precisar cadastrar os títulos manualmente.
 
-# Questão 7 — Catálogo da plataforma de streaming
 
-# #JSON #funções #laços
 
-# Arquivo(s): catalogo.py (+ catalogo.json, fornecido)
-
-# A plataforma fictícia Cineflix guarda o catálogo no arquivo catalogo.json: uma lista com 15
-# títulos. Cada título é um dicionário assim:
-
-# um item do catalogo.json
-# {"id": 6, "titulo": "Estação Marte", "tipo": "Série", "genero": "Ficção", "ano": 2025,
-#  "duracao_min": 480, "classificacao": 12, "nota": 8.4}
-
-# classificacao é a idade mínima (0 = livre, mostre "L"). duracao_min é a duração do filme ou a
-# soma de todos os episódios da série.
-
-# O programa deve:
-# 1. Ler o catálogo do arquivo JSON ao iniciar e mostrar quantos títulos foram carregados.
-
-# 2. Ter um menu com as opções abaixo, repetindo até a pessoa escolher sair:
-# • Listar tudo: id, título, tipo, gênero, ano, classificação e nota, alinhados em colunas.
-# • Filtrar por gênero: mostrar antes a lista de gêneros existentes, sem repetição; aceitar o
-# gênero em maiúsculas ou minúsculas.
-# • Buscar título: por uma parte do nome, sem diferenciar maiúsculas.
-# • Títulos para a minha idade: só os que têm classificação menor ou igual à idade digitada.
-# • Mais bem avaliados: os N de maior nota (Enter = 5).
-# • Estatísticas: total de títulos, quantos filmes e quantas séries, nota média e lista de gêneros.
-# IFSC · Programação em Python · Lista de revisão 9
-# Dica: Crie uma função para cada opção, recebendo o catálogo por parâmetro (por exemplo,
-# filtrar_por_genero(catalogo, genero)). Para ordenar pela nota: sorted(catalogo, key=lambda
-# t: t["nota"], reverse=True).
 
 
 import json

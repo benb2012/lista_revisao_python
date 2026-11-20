@@ -3,7 +3,7 @@
 # para terminar a série e classificar a maratona como Leve, Média ou Intensa.
 # Receber a quantidade de temporadas, episódios e duração média dos episódios.
 # Mostrar o tempo de cada temporada e o tempo total da série.
-
+#
 
 def formatar_duracao_minutos(minutos):
     horas = minutos // 60

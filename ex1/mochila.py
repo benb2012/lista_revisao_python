@@ -3,6 +3,7 @@
 # Ao final, mostrar um resumo com quantidade, peso total, média,
 # item mais pesado e quanto ultrapassou ou ainda cabe no limite de 15 kg.
 # Validar os pesos digitados para evitar valores inválidos.
+#
 
 print("=== MOCHILA DE CAMPING ===")
 print("Digite os itens. Para terminar, digite FIM.")

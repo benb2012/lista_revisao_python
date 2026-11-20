@@ -4,7 +4,7 @@
 # Receber produtos até o usuário deixar o nome vazio.
 # Ao final, calcular descontos, frete e apresentar a nota da compra.
 # As funções de cálculo devem utilizar parâmetros e return, sem print.
-
+#
 
 
 
